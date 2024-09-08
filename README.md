@@ -51,24 +51,23 @@ A real-time chat application designed and developed using a modern tech stack, o
 - MongoDB running locally or on a remote server
 
 ### Installation
-1. Clone the repository:
+1. Install client-side dependencies:
     ```bash
-    git clone https://github.com/your-username/chat-app.git
-    cd chat-app
+    git clone https://github.com/Nur-Adnan/MERN-Stack-Chat-App-Frontend.git
+    npm install
     ```
 
 2. Install server-side dependencies:
     ```bash
-    cd server
+    git clone https://github.com/Nur-Adnan/MERN-Stack-Chat-App-Backend.git
     npm install
     ```
 
-3. Install client-side dependencies:
+3. Create an `.env` file in the client folder with the following variables:
     ```bash
-    cd ../client
-    npm install
+    VITE_SERVER=your-server-url
     ```
-
+    
 4. Create an `.env` file in the server folder with the following variables:
     ```bash
     MONGO_URI=your-mongodb-connection-string
@@ -80,7 +79,7 @@ A real-time chat application designed and developed using a modern tech stack, o
     CLOUDINARY_API_KEY=your-cloudinary-api-key
     CLOUDINARY_API_SECRET=your-cloudinary-api-secret
     ```
-
+    
 5. Run the development server:
     - In the `server` folder, start the backend:
       ```bash
@@ -89,10 +88,10 @@ A real-time chat application designed and developed using a modern tech stack, o
 
     - In the `client` folder, start the frontend:
       ```bash
-      npm start
+      npm run dev
       ```
 
-6. The application will be available at `http://localhost:3000`.
+6. The application will be available at `http://localhost:5173`.
 
 ## Screenshots
 
@@ -108,7 +107,7 @@ Admin
 ![image](https://github.com/user-attachments/assets/22768e82-b166-4d5c-bb56-c596bdbf644c)
 ![image](https://github.com/user-attachments/assets/0aaab633-b24d-4d04-884e-9dc6b6773e8f)
 ![image](https://github.com/user-attachments/assets/87e677c2-77e5-4f25-84b5-e8c2f056ced2)
-![image](https://github.com/user-attachments/assets/98692b19-a0e7-46fb-91b4-a30bbe52f2d7)
+
 
 ## License
 This project is licensed under the MIT License.
