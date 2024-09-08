@@ -73,6 +73,12 @@ A real-time chat application designed and developed using a modern tech stack, o
     ```bash
     MONGO_URI=your-mongodb-connection-string
     JWT_SECRET=your-secret-key
+    ADMIN_SECRET_KEY=your-admin-secret-key
+    NODE_ENV=your-environment
+    CLIENT_URL=your-client-url
+    CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
+    CLOUDINARY_API_KEY=your-cloudinary-api-key
+    CLOUDINARY_API_SECRET=your-cloudinary-api-secret
     ```
 
 5. Run the development server:
@@ -102,7 +108,7 @@ Admin
 ![image](https://github.com/user-attachments/assets/22768e82-b166-4d5c-bb56-c596bdbf644c)
 ![image](https://github.com/user-attachments/assets/0aaab633-b24d-4d04-884e-9dc6b6773e8f)
 ![image](https://github.com/user-attachments/assets/87e677c2-77e5-4f25-84b5-e8c2f056ced2)
-
+![image](https://github.com/user-attachments/assets/98692b19-a0e7-46fb-91b4-a30bbe52f2d7)
 
 ## License
 This project is licensed under the MIT License.
